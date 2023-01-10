@@ -17,12 +17,15 @@ function Contact() {
               Contact
             </h1>
             <p className="description">
-              Incididunt in cillum magna occaecat nisi qui in exercitation
-              labore anim adipisicing amet irure tempor.
+              If you want to contact me you can do this with all the options
+              mentioned below. Looking forward to get in touch with you.
             </p>
             <ul className="contact-links">
-              <li className="contact-item">Email: lutfhi@me.com</li>
-              <li className="contact-item">Phone: +6212344321007</li>
+              <li className="contact-item">Email: nicholashaemmerle@gmx.at</li>
+              <li className="contact-item">Phone: +43 660/1586953</li>
+              <li className="contact-item">Twitter: @NicholasHaemmer</li>
+              <li className="contact-item">Instagram: @nicholashmmerle</li>
+
             </ul>
           </div>
         </div>

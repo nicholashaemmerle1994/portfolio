@@ -17,18 +17,16 @@ function About() {
               About
             </h1>
             <p className="description">
-              Incididunt in cillum magna occaecat nisi qui in exercitation
-              labore anim adipisicing amet irure tempor id pariatur nostrud
-              labore nulla veniam sunt occaecat est officia ut cillum do eiusmod
-              enim consequat nulla in ut esse irure ex commodo excepteur
-              pariatur in consectetur consectetur in dolor aliqua ex sint minim
-              dolore ut ea ad dolor est deserunt incididunt exercitation qui
-              laboris ad do minim sunt elit occaecat excepteur deserunt sint
-              sunt laboris dolore amet sit fugiat tempor reprehenderit laborum
-              et irure commodo exercitation ea excepteur esse mollit ad nisi sit
-              laboris dolore ad sunt eiusmod dolore do nisi id commodo in et
-              aliqua sed ullamco ea id duis aliquip commodo qui sed aute ut
-              aliqua.
+              I was born in Carinthia in 1994 and spend the majority of my whole
+              life in my Hometown. When i turned 18 i started to work in
+              hospitality as a bartender in many different hotels and bars
+              around Austria. All my life i had big interest in everything
+              related to tech and media, but i never quite figured out in which
+              direction i want to move. This past year 2022, i discovered my
+              interest for web development and spend all year with doing courses
+              on udemy and trying to code for myself. In the summer of 2022 i
+              got a recommendation for the UpLeveled Fullstack Web Development
+              Bootcamp in Vienna. Aaaand here i am.
             </p>
           </div>
         </div>
