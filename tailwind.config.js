@@ -11,6 +11,7 @@ module.exports = {
     fontFamily: {
       nav: ['Caveat'],
       heading: ['Lobster', 'cursive'],
+      text: ['Roboto Mono', 'sans-serif'],
     },
   },
   plugins: [],
