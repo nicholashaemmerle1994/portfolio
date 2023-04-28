@@ -59,8 +59,9 @@ export default function LandingPage() {
           </div>
         </div>
       </div>
-      <h2 className="font-black font-nav text-3xl my-20">Latest Projects</h2>
       <hr className="my-4" />
+      <h2 className="font-black font-nav text-3xl mt-10 mb-4">Latest Projects</h2>
+      <p className="font-text">Hey, I'm Nico. I'm a passionate Fullstack Developer, finding satisfaction in implementing new features and debugging. Constantly seeking new challenges and learning new things.</p>
     </div>
   );
 }
