@@ -14,5 +14,5 @@ module.exports = {
       text: ['Roboto Mono', 'sans-serif'],
     },
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/typography')],
 };
