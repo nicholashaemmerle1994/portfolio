@@ -7,7 +7,6 @@ export default function LandingPage() {
   return (
     <div className="prose prose-neutral dark:prose-invert">
       <h1 className="font-black font-nav text-3xl my-4 text-red-300">Nicholas Hämmerle</h1>
-      {/* <hr className="my-4" /> */}
       <div>
         <p className="font-text">Hey, I'm Nico. I'm a passionate Fullstack Developer, finding satisfaction in implementing new features and debugging. Constantly seeking new challenges and learning new things.</p>
         <div className="my-10 flex">

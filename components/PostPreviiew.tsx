@@ -5,11 +5,11 @@ const PostPreview = (props: MetaData) => {
   return (
     <>
       <div className="max-w-lg">
-        <Link href={`/posts/${props.slug}`}>
-          <h2 className="text-red-300 hover:underline my-3">{props.title}</h2>
+        <Link href={`/posts/${props.slug}`} className="no-underline">
+          <h2 className="font-text text-lg hover:underline my-3">{props.title}</h2>
 
-          <p className="text-slate-400 mb-12">{props.subtitle}</p>
-          <p className="text-sm text-slate-400">
+          <p className="font-text text-slate-400 mb-12">{props.subtitle}</p>
+          <p className="font-text text-sm text-slate-400">
             Created by Nicholas Hämmerle
             <br />
             {props.date}
