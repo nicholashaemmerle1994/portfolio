@@ -25,27 +25,27 @@ export default function LandingPage() {
             <div className="font-text list-none">
               <li>Vienna</li>
               <li>
-                <Link href="https://www.linkedin.com/in/nicholashaemmerle/" target="_blank" className="no-underline">
+                <Link href="https://www.linkedin.com/in/nicholashaemmerle/" target="_blank" className="no-underline hover:text-red-600">
                   LinkedIn
                 </Link>
               </li>
               <li>
-                <Link href="https://github.com/nicholashaemmerle1994" target="_blank" className="no-underline">
+                <Link href="https://github.com/nicholashaemmerle1994" target="_blank" className="no-underline hover:text-red-600 ">
                   Github
                 </Link>
               </li>
               <li>
-                <Link href="https://twitter.com/NicholasHaemmer" target="_blank" className="no-underline">
+                <Link href="https://twitter.com/NicholasHaemmer" target="_blank" className="no-underline hover:text-red-600">
                   Twitter
                 </Link>
               </li>
               <li>
-                <Link href="mailto:nicholashaemmerle@gmx.at" className="no-underline">
+                <Link href="mailto:nicholashaemmerle@gmx.at" className="no-underline hover:text-red-600">
                   Mail
                 </Link>
               </li>
               <li>
-                <Link href="/lebenslauf.pdf" download="CV Nicholas Hämmerle.pdf" target="_blank" className="no-underline">
+                <Link href="/lebenslauf.pdf" download="CV Nicholas Hämmerle.pdf" target="_blank" className="no-underline hover:text-red-600">
                   Download my CV
                 </Link>
               </li>
@@ -61,7 +61,7 @@ export default function LandingPage() {
       <p className="font-text">The idea was, that coffee lovers from all over the world can share recipes and their experience with different equipment, roasters and beans. </p>
       <p className="font-text">
         You can check it out{' '}
-        <Link href="https://coffix-social.fly.dev" className="underline">
+        <Link href="https://coffix-social.fly.dev" className="underline hover:text-red-600">
           here
         </Link>
       </p>
