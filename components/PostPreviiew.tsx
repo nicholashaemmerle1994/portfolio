@@ -1,7 +1,8 @@
 import Link from 'next/link';
 import { MetaData } from './Metadata';
 
-const PostPreview = (props: MetaData) => {
+export default function PostPreview(props: MetaData) {
+  console.log('props', props);
   return (
     <>
       <div className="max-w-lg">
@@ -19,6 +20,4 @@ const PostPreview = (props: MetaData) => {
       </div>
     </>
   );
-};
-
-export default PostPreview;
+}

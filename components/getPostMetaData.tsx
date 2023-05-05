@@ -2,7 +2,7 @@ import fs from 'fs';
 import matter from 'gray-matter';
 import { MetaData } from '../components/Metadata';
 
-const getPostMetadata = (): MetaData[] => {
+export default function getPostMetadata(): MetaData[] {
   const folder = 'posts/';
   const files = fs.readdirSync(folder);
   const markdownPosts = files.filter((file) => file.endsWith('.md'));
@@ -20,6 +20,4 @@ const getPostMetadata = (): MetaData[] => {
   });
 
   return posts;
-};
-
-export default getPostMetadata;
+}
