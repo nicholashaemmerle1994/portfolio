@@ -12,7 +12,6 @@ const getPostContent = (slug: string) => {
 export default function Post(props: any) {
   const slug = props.params.slug;
   const post = getPostContent(slug);
-  console.log('slug', slug, 'post', post);
   return (
     <div>
       <div className="my-12 text-center">
