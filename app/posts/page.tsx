@@ -10,7 +10,7 @@ export default function BlogPage() {
       <h1 className="font-black font-nav text-3xl mt-10 mb-0 text-red-300">What I Learned Today</h1>
       <h3 className="font-text mt-0">#100DaysOfCoding</h3>
       <hr className="mt-10 mb-4" />
-      <div className="flex">{postPreviews}</div>
+      <div className="flex flex-col">{postPreviews}</div>
     </div>
   );
 }
